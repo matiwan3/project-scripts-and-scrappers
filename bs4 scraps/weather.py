@@ -20,7 +20,7 @@ class Weather:
         return Weather._fetch_temperature(url)
 
     @staticmethod
-    def gdanks():
+    def gdansk():
         url = f'{Weather.baseUrl}9232d0f0d32720f51ed452f5c7641057e3c7da0084a5916148f0ebc10cb6498e'
         return Weather._fetch_temperature(url)
 
@@ -30,11 +30,12 @@ class Weather:
         soup = BeautifulSoup(response.content, 'html.parser')
         element = soup.find('span', {'data-testid': 'TemperatureValue'})
         if element:
-            temperature_string = element.get_text(strip=True)
+            temperature_string = element.get_text(strip=True) # strip removes leading and trailing whitespace characters 
             # Extract numerical value using regular expression
-            temperature_value = re.search(r'\d+', temperature_string)
+            temperature_value = re.search(r'\d+', temperature_string) # matches the sequence of \d aka [0-9] int
+            print(temperature_value)
             if temperature_value:
-                temp_value = int(temperature_value.group())  
+                temp_value = int(temperature_value.group())  # group() methods extracts only the 'match' number values
                 celsius_temp = fahrenheit_to_celsius(temp_value)
                 rounded_temp = round(celsius_temp, 1)
                 return rounded_temp
@@ -43,9 +44,9 @@ class Weather:
 # create instances
 temperature_poznan = Weather.poznan()
 temperature_warsaw = Weather.warsaw()
-temperature_gdanks = Weather.gdanks()
+temperature_gdansk = Weather.gdansk()
 
 # print what needs to be printed :D
 print("Temperature in Poznan:", temperature_poznan)
 print("Temperature in Warsaw:", temperature_warsaw)
-print("Temperature in Gdanks:", temperature_gdanks)
+print("Temperature in Gdansk:", temperature_gdansk)
