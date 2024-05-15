@@ -40,10 +40,12 @@ class Weather:
                 return rounded_temp
         return None
 
-# Example usage:
+# create instances
 temperature_poznan = Weather.poznan()
 temperature_warsaw = Weather.warsaw()
 temperature_gdanks = Weather.gdanks()
+
+# print what needs to be printed :D
 print("Temperature in Poznan:", temperature_poznan)
 print("Temperature in Warsaw:", temperature_warsaw)
 print("Temperature in Gdanks:", temperature_gdanks)
