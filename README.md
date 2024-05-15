@@ -1,6 +1,5 @@
 # project-webscraping
-_Webscraping projects using bs4 and python_
-_popular scrappers:_   
+_Webscraping projects using bs4 and python. Popular scrappers:_    
  - **weather.py**
 ![image](https://github.com/matiwan3/project-webscraping/assets/93386476/431164a8-447d-432c-baf0-fb61ad81ccd4)
 > output  
