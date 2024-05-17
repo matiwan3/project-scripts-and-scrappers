@@ -14,7 +14,7 @@ _Webscraping projects using bs4 and python. Popular scrappers:_
   * 5 * 10 minute speed ups  
   * 7* 15 minute speed ups
 ![436764494_2510567369147924_8498895025419660135_n](https://github.com/matiwan3/project-scripts-scrappers/assets/93386476/f3dc69a6-dd2d-431e-bdc3-6d91e85f078d)  
-_Enter amount of each speed up to the calculator and get the output!_
+_Enter amount of each speed up to the calculator and get the output. Easy as that!_
 ![image](https://github.com/matiwan3/project-scripts-scrappers/assets/93386476/22dd37df-1548-4b1f-9724-0dbd751eb5bf)
 
 
