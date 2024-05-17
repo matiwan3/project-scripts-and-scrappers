@@ -1,12 +1,12 @@
 # Description of projects within this repository starts here 👇🏽
 _Webscraping projects using bs4 and python. Popular scrappers:_    
- - **weather.py**
+ - **"bs4 scraps/weather.py"**
 ![image](https://github.com/matiwan3/project-webscraping/assets/93386476/302023d2-546a-41a8-ac63-8bc0656a2060)
 
 > output  
 ![image](https://github.com/matiwan3/project-webscraping/assets/93386476/f86bae69-02b9-4067-a5bb-ead34b10bfc4)
 
-- **ROKspeedupCalculator.py**  
+- **"helpers/ROKspeedupCalculator.py"**  
   _If you ever played any RTS game you will find this script useful. This calculator allows you to sum up all your time speed ups which in consequence will help you to decied if its worth it to use them or not.  
   eg. I have:_
   * 104 x 1 minute speed ups  
