@@ -1,5 +1,6 @@
 # Action speed ups
 def calcSpeedUps():
+    print("[*] Starting a loop...")
     minute_speed_ups_1 = int(input("[+] Total amount of 1 minute speed ups: ")) # 1 min speed up
     minute_speed_ups_5 = int(input("[+] Total amount of 5 minute speed ups: ")) # 5 min speed up
     minute_speed_ups_10 = int(input("[+] Total amount of 10 minute speed ups: ")) # 10 min speed up
