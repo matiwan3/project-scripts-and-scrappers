@@ -7,7 +7,7 @@ _Look down below for useful scripts and scrapers_
 ![image](https://github.com/matiwan3/project-webscraping/assets/93386476/f86bae69-02b9-4067-a5bb-ead34b10bfc4)
 
 - **"helpers/ROKspeedupCalculator.py"**  
-  _If you ever played any RTS game you will find this script useful. This calculator allows you to sum up all your time speed ups which in consequence will help you to decied if its worth it to use them or not.  
+  _If you have ever played any RTS game you will find this script useful. This calculator allows you to sum up all your time speed ups which in consequence will help you to decied if its worth it to use them or not.  
   eg. I have:_
   * 104 x 1 minute speed ups  
   * 14 * 5 minute speed ups  
