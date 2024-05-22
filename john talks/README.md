@@ -34,7 +34,7 @@ To create an executable from `main.py`, you can use PyInstaller, a popular Pytho
 
 3. Run PyInstaller to generate the executable:
     ```bash
-    pyinstaller --onefile --noconsole --name johnTalks main.py
+    pyinstaller --onefile --icon=icon.ico --name JohnTalks main.py
     ```
 This command will create a single executable file named JanaAssistant.exe without a console window.
 
