@@ -1,14 +1,24 @@
 ## Description of main.py
 
-`main.py` is a Python script that implements a speech recognition system. It listens for specific trigger phrases and executes commands based on the recognized phrases. The script utilizes the SpeechRecognition library to capture audio input from the microphone and Google Web Speech API for speech recognition.
+`main.py` is a Python script implementing a voice-controlled assistant system. It utilizes the SpeechRecognition library to capture audio input from the microphone and the Google Web Speech API for speech recognition. The script listens for specific trigger phrases and executes corresponding actions based on the recognized phrases.
 
 ### Functionality:
-- Listens for trigger phrases such as "Jana turn off my PC" or "Jana hibernate my PC".
-- Executes corresponding actions like shutting down or hibernating the PC when trigger phrases are recognized.
+- Listens for trigger phrases such as:
+  - "John turn off my PC"
+  - "John hibernate my PC"
+  - "John lock my PC"
+  - "Bye John"
+- Executes corresponding actions like:
+  - Shutting down the PC
+  - Hibernating the PC
+  - Locking the PC
+- Supports termination by saying "Bye John".
 
 ### Dependencies:
-- speech_recognition: Library for speech recognition.
-- os: Standard library module for interacting with the operating system.
+- `speech_recognition`: Library for speech recognition.
+- `os`: Standard library module for interacting with the operating system.
+
+
 
 ## Instructions for Creating Executable
 
@@ -33,7 +43,6 @@ This command will create a single executable file named JanaAssistant.exe withou
 Include any additional information or tips that might be helpful for users, such as troubleshooting tips or customization options.
 
 Example:
-```markdown
 ## Additional Notes
 
 - If you encounter any errors during the PyInstaller process, make sure all dependencies are installed and up to date.
@@ -41,6 +50,6 @@ Example:
 - You can customize the behavior of the executable by modifying the trigger phrases and corresponding actions in `main.py` before creating the executable.
 
 
-**make it run on windows boot**
+## ➕ Make it run on windows boot (Additional section)
 
 
