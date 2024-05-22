@@ -55,7 +55,7 @@ Example:
 <a href="https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd">Microsoft guide</a>
 - With the file location open, press the Windows logo key  + R, type shell:startup, then select OK. This opens the Startup folder.
 - Create a copy of the original exe and paste it into autostart folder ![image](https://github.com/matiwan3/project-scripts-and-scrappers/assets/93386476/bcd4593c-b4f9-4004-87dd-3b6bd6412096)
-- In the autostart tab you should see now that our johnTalks is added and enabled ![image](https://github.com/matiwan3/project-scripts-and-scrappers/assets/93386476/91649329-03b5-42c3-9b42-93fd1556be77)
+- In the autostart tab you should see now that our JohnTalks.exe is added and enabled ![image](https://github.com/matiwan3/project-scripts-and-scrappers/assets/93386476/91649329-03b5-42c3-9b42-93fd1556be77)
 
 
 
