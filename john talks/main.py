@@ -10,7 +10,7 @@ def listen_for_trigger():
     while True:
         with sr.Microphone() as source:
             print("Listening for trigger phrase...")
-            audio = r.listen(source)
+            audio = r.listen(source, phrase_time_limit=2) # phrase_time_limit prevents script from infinitely waiting for phrase 
             
             try:
                 # Use Google Web Speech API for speech recognition
