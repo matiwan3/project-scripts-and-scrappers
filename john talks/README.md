@@ -1,13 +1,14 @@
 ## Description of main.py
 
-`main.py` is a Python script implementing a voice-controlled assistant system. It utilizes the SpeechRecognition library to capture audio input from the microphone and the Google Web Speech API for speech recognition. The script listens for specific trigger phrases and executes corresponding actions based on the recognized phrases.
+`main.py` is a Python script implementing a voice-controlled assistant system. It utilizes the SpeechRecognition library to capture audio input from the microphone and the Google Web Speech API for speech recognition. The script listens for specific trigger phrases and executes corresponding actions based on the recognized phrases.<br><br>
+**Why "John"?** After testing various names, I discovered that many were misinterpreted. For example, when I said "teddy" (the previous name), the program recognized it as "daddy" 😂. "John" is the most universally recognized and straightforward name I found.
 
 ### Functionality:
 - Listens for trigger phrases such as:
-  - "John turn off my PC"
-  - "John hibernate my PC"
-  - "John lock my PC"
-  - "Bye John"
+  - "john banana" (turn off my PC and exits the program)
+  - "john hibernate" (hibernates the PC and exits the program)
+  - "john lock" (locks the PC and doesn't exit the program)
+  - "bye john" (exits the program)
 - Executes corresponding actions like:
   - Shutting down the PC
   - Hibernating the PC
