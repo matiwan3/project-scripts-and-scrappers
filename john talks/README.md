@@ -52,5 +52,8 @@ Example:
 
 
 ## ➕ Make it run on windows boot (Additional section)
+<a href="https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd">Microsoft guide</a>
+- With the file location open, press the Windows logo key  + R, type shell:startup, then select OK. This opens the Startup folder.
+- Create a copy of the original exe and paste it into autostart folder ![image](https://github.com/matiwan3/project-scripts-and-scrappers/assets/93386476/bcd4593c-b4f9-4004-87dd-3b6bd6412096)
 
 
