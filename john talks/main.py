@@ -1,3 +1,4 @@
+# JohnTalks | v.0.2
 import speech_recognition as sr
 import os
 
@@ -23,7 +24,7 @@ def listen_for_trigger():
                     print("Hibernating PC...")
                     os.system("shutdown /h")
                     break
-                elif "john lock" in text:
+                elif "john apple" in text:
                     print("Locking PC...")
                     os.system("rundll32.exe user32.dll,LockWorkStation") # Program is still listening after locking down the PC, although needs some adjustments
                 elif "bye john" in text:
