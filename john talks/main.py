@@ -33,6 +33,4 @@ def listen_for_trigger():
             except sr.RequestError as e:
                 print("Could not request results; {0}".format(e))
 
-
 listen_for_trigger()
-
