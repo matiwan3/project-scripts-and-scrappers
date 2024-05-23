@@ -5,15 +5,11 @@
 
 ### Functionality:
 - Listens for trigger phrases such as:
-  - "john banana" (turn off my PC and exits the program)
-  - "john hibernate" (hibernates the PC and exits the program)
-  - "john lock" (locks the PC and doesn't exit the program)
-  - "bye john" (exits the program)
-- Executes corresponding actions like:
-  - Shutting down the PC
-  - Hibernating the PC
-  - Locking the PC
-- Supports termination by saying "Bye John".
+  - "close" (turn off my PC and exits the program)
+  - "hibernate" (hibernates the PC and exits the program)
+  - "lock" (locks the PC and doesn't exit the program)
+  - "adios" (exits the program)
+  - "help" (prints help menu)
 
 ### Dependencies:
 - `speech_recognition`: Library for speech recognition.
@@ -51,11 +47,15 @@ Example:
 - You can customize the behavior of the executable by modifying the trigger phrases and corresponding actions in `main.py` before creating the executable.
 
 
-## ➕ Make it run on windows boot (Additional section)
+## Make it run on windows boot
 <a href="https://support.microsoft.com/en-us/windows/add-an-app-to-run-automatically-at-startup-in-windows-10-150da165-dcd9-7230-517b-cf3c295d89dd">Microsoft guide</a>
 - With the file location open, press the Windows logo key  + R, type shell:startup, then select OK. This opens the Startup folder.
 - Create a copy of the original exe and paste it into autostart folder ![image](https://github.com/matiwan3/project-scripts-and-scrappers/assets/93386476/bcd4593c-b4f9-4004-87dd-3b6bd6412096)
 - In the autostart tab you should see now that our JohnTalks.exe is added and enabled ![image](https://github.com/matiwan3/project-scripts-and-scrappers/assets/93386476/91649329-03b5-42c3-9b42-93fd1556be77)
 
-
+## Changelog
+_with v.3_
+- added help menu
+- adjusted commands
+- added timeframe to prevent program glitches eg. endlessly waiting for the phrase (still needs more adjustments)
 
