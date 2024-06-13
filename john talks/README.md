@@ -3,7 +3,7 @@
 `main.py` is a Python script implementing a voice-controlled assistant system. It utilizes the SpeechRecognition library to capture audio input from the microphone and the Google Web Speech API for speech recognition. The script listens for specific trigger phrases and executes corresponding actions based on the recognized phrases.<br><br>
 **Why "John"?** After testing various names, I discovered that many were misinterpreted. For example, when I said "teddy" (the previous name), the program recognized it as "daddy" 😂. "John" is the most universally recognized and straightforward name I found.  
 
-**additional note** I completly removed "John" from phrases due to being it too long for script to catch in a timeframe, so instead i just went from "John Shutdown" to "shutdown"
+**additional note** I completly removed "John" from phrases due to being it too long for script to catch in a listened timeframe, so instead i just went from "John Shutdown" to "shutdown"
 
 ### Functionality:
 - Listens for trigger phrases such as:
